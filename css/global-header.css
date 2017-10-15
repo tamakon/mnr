@@ -14,15 +14,14 @@
     padding: 6px 12px;
 }
 
-.global-header > .initial-display > .logo-area > .logo-link {
-    text-decoration: none;
-}
-
+.global-header > .initial-display > .logo-area > .logo-link,
 .global-header > .initial-display > .logo-area > .logo-link:visited {
+    text-decoration: none;
     color: white;
 }
 
-.global-header > .initial-display > .menu-area > .menu-trigger, .menu-trigger span {
+.global-header > .initial-display > .menu-area > .menu-trigger,
+.global-header > .initial-display > .menu-area > .menu-trigger > span {
     display: inline-block;
     transition: all .4s;
     box-sizing: border-box;
