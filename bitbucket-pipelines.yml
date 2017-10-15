@@ -1,3 +1,5 @@
+# BitBucketのPipelinesで使用する設定ファイルです。
+# 詳細は https://confluence.atlassian.com/bitbucket/build-test-and-deploy-with-pipelines-792496469.html を参照。
 image: node:6.9.4
 clone:
   depth: full
@@ -5,10 +7,8 @@ clone:
 pipelines:
   default:
     - step:
-        caches:
-          - node
-        script: # Herokuサーバ未作成
-          - npm init --yes
-          - npm install
-          - npm test
-          # - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git HEAD
+      caches:
+        - node
+      script: # Herokuサーバ未作成
+        - npm install
+        # - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git HEAD
