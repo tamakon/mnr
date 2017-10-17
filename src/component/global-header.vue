@@ -14,17 +14,8 @@
         </div>
         <div class="menu-detail" v-if="isActive">
             <ul class="global-header-links">
-                <li class="link-item">
-                    <a href="./undefined.html" class="menu-link">会社情報</a>
-                </li>
-                <li class="link-item">
-                    <a href="./undefined.html" class="menu-link">主な事業</a>
-                </li>
-                <li class="link-item">
-                    <a href="./undefined.html" class="menu-link">プレスリリース</a>
-                </li>
-                <li class="link-item">
-                    <a href="./undefined.html" class="menu-link">お問い合わせ</a>
+                <li class="link-item" v-for="item in links" :key="item">
+                    <a v-bind:href="item.href" class="menu-link">{{ item.label }}</a>
                 </li>
             </ul>
         </div>
@@ -34,8 +25,13 @@
 <script>
     export default {
         data() {
+            const links = [{label: "会社情報", href: "./undefined.html" },
+                            {label: "主な事業", href: "./undefined.html" },
+                            {label: "プレリリース", href: "./undefined.html" },
+                            {label: "お問い合わせ", href: "./undefined.html" }];
             return {
-                isActive: false
+                isActive: false,
+                links: links
             }
         },
         methods: {
