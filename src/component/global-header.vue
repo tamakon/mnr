@@ -14,7 +14,7 @@
         </div>
         <div class="menu-detail" v-if="isActive">
             <ul class="global-header-links">
-                <li class="link-item" v-for="item in links" :key="item">
+                <li class="link-item" v-for="item in links" :key="item.label">
                     <a v-bind:href="item.href" class="menu-link">{{ item.label }}</a>
                 </li>
             </ul>
