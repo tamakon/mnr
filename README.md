@@ -10,5 +10,5 @@
 ```
 npm install
 npm run build
-node vueified-web.js
+node main.js
 ```
