@@ -25,6 +25,6 @@
   },
   "scripts": {
     "build": "./node_modules/.bin/browserify src/js/index.js -o dist/js/index.js",
-    "heroku": "concurrent \"npm run build\" \"node vuified-web.js\" "
+    "heroku": "concurrently \"npm run build\" \"node vuified-web.js\" "
   }
 }
