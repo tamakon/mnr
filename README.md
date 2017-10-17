@@ -2,28 +2,13 @@
 
 いい感じの企業ホームページを作ろう！
 
-### What is this repository for? ###
+## 起動方法
+前提としてnode.jsをインストールしている必要があります。
+`mnr` ディレクトリ配下にて以下のコマンドを実行することでwebサーバを起動できます。
+成功すれば、 [http://localhost:3000] に「test」と表示されます。
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```
+npm install
+npm run build
+node vueified-web.js
+```
