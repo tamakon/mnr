@@ -46,6 +46,7 @@
     .global-header {
         background-color: darkcyan;
         color: white;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .initial-display {
@@ -93,34 +94,28 @@
 
     .menu-trigger > span:nth-of-type(1) {
         top: 0;
-        transition: 50ms
     }
 
     .menu-trigger > span:nth-of-type(2) {
         top: 14px;
-        transition: 50ms
     }
 
     .menu-trigger > span:nth-of-type(3) {
         top: 28px;
-        transition: 50ms
     }
 
     .menu-trigger.active > span:nth-of-type(1) {
         -webkit-transform: translateY(14px) rotate(-45deg);
         transform: translateY(14px) rotate(-45deg);
-        transition: 50ms
     }
 
     .menu-trigger.active > span:nth-of-type(2) {
         opacity: 0;
-        transition: 50ms
     }
 
     .menu-trigger.active > span:nth-of-type(3) {
         -webkit-transform: translateY(-14px) rotate(45deg);
         transform: translateY(-14px) rotate(45deg);
-        transition: 50ms
     }
 
     .global-header-links {
