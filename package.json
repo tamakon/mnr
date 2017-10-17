@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "いい感じの企業ホームページを作ろう！",
   "dependencies": {
+    "ip": "1.1.5",
     "express": "3.0.5",
     "vue": "2.5.2",
     "browserify": "14.4.0",
