@@ -23,6 +23,7 @@
     ]
   },
   "scripts": {
-    "build": "./node_modules/.bin/browserify src/js/index.js -o dist/js/index.js"
+    "build": "./node_modules/.bin/browserify src/js/index.js -o dist/js/index.js",
+    "postinstall": "npm run build"
   }
 }
