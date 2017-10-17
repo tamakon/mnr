@@ -3,6 +3,27 @@
   "version": "1.0.0",
   "description": "いい感じの企業ホームページを作ろう！",
   "dependencies": {
-    "express": "3.0.5"
+    "express": "3.0.5",
+    "vue": "2.5.2",
+    "browserify": "14.4.0",
+    "babelify": "7.3.0",
+    "babel-preset-env": "1.6.0",
+    "vueify": "9.4.1"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "env"
+          ]
+        }
+      ],
+      "vueify"
+    ]
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/browserify src/js/index.js -o dist/js/index.js"
   }
 }
