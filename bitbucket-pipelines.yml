@@ -7,7 +7,7 @@ clone:
 
 pipelines:
   branches:
-    master:
+    vueify:
       - step:
           caches:
             - node
