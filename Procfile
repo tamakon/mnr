@@ -1,1 +1,1 @@
-web: node vueified-web.js
+web: npm run heroku
