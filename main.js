@@ -3,9 +3,9 @@ const express = require('express'),
     path = require('path'),
     ip = require('ip'),
     app = express(),
-    port = 3000;
+    port = process.env.PORT || 3000;
 app.configure(function () {
-    app.set("port", port);
+    app.set('port', port);
     app.use(express.static(path.join(__dirname, 'dist')));
 });
 
