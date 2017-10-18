@@ -15,7 +15,7 @@
         <div class="menu-detail" v-if="isActive">
             <ul class="global-header-links">
                 <li class="link-item" v-for="item in links" :key="item.label">
-                    <a v-bind:href="item.href" class="menu-link">{{ item.label }}</a>
+                    <router-link class="menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
         </div>
@@ -27,7 +27,7 @@
         data() {
             const links = [{label: "会社情報", href: "./undefined.html" },
                             {label: "主な事業", href: "./undefined.html" },
-                            {label: "プレリリース", href: "./undefined.html" },
+                {label: "プレリリース", href: "/pre-release"},
                             {label: "お問い合わせ", href: "./undefined.html" }];
             return {
                 isActive: false,
