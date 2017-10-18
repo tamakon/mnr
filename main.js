@@ -5,6 +5,7 @@ const express = require('express'),
     app = express(),
     port = 3000;
 app.configure(function () {
+    app.set("port", port);
     app.use(express.static(path.join(__dirname, 'dist')));
 });
 
