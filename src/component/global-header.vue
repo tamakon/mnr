@@ -2,7 +2,7 @@
     <div class="global-header">
         <div class="initial-display">
             <div class="logo-area">
-                <a href="/" class="logo-link">MNR</a>
+                <router-link class="logo-link" to="/">MNR</router-link>
             </div>
             <div class="menu-area">
                 <div class="menu-trigger" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
