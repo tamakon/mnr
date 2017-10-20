@@ -44,6 +44,8 @@
 
 <style scoped>
     .global-header {
+        position: absolute;
+        width: 100%;
         background-color: darkcyan;
         color: white;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
