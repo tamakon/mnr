@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class="float-menu-wrapper" v-if="isActive">
+        <div class="menu-wrapper" v-if="isActive">
             <ul class="global-header-links">
                 <li class="link-item" v-for="item in links" :key="item.label">
                     <router-link class="menu-link" :to="item.href">{{ item.label }}</router-link>
@@ -118,12 +118,6 @@
     .menu-trigger.active > span:nth-of-type(3) {
         -webkit-transform: translateY(-14px) rotate(45deg);
         transform: translateY(-14px) rotate(45deg);
-    }
-
-    .float-menu-wrapper {
-        background-color: darkcyan;
-        position: absolute;
-        width: 100%;
     }
 
     .global-header-links {
