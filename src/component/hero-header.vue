@@ -1,7 +1,7 @@
 <template>
     <div class="hero-header">
         <div id="hero-img" v-bind:style="backGroundImgStyle()">
-            <div class="hero-description">{{ description }}</div>
+            <div v-if="description" class="hero-description">{{ description }}</div>
         </div>
         <div id="hero-title">
             <h1>{{ title }}</h1>
@@ -16,16 +16,13 @@ export default {
         'imgSource': String,
         // ページタイトル
         'title': String,
-        // 画像内に収まる説明文. HACK:任意へ
+        // 画像内に収まる説明文（任意）
         'description': String,
     },
     methods: {
         backGroundImgStyle() {
-            // HACK:imgSourceは必須にするかどうしよう
-            const imgUrl = (this.imgSource) ? this.imgSource :
-                 "https://www.pakutaso.com/shared/img/thumb/ransomwareIMGL1908_TP_V.jpg";
             // url関数の結果を入れようとされてしまうため
-            const image = `url(${imgUrl})`;
+            const image = `url(${this.imgSource})`;
             return {
                 'background-image': image
             };
