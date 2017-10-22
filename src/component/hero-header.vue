@@ -25,7 +25,7 @@ export default {
             const imgUrl = (this.imgSource) ? this.imgSource :
                  "https://www.pakutaso.com/shared/img/thumb/ransomwareIMGL1908_TP_V.jpg";
             // url関数の結果を入れようとされてしまうため
-            const image = "url(" + imgUrl + ")";
+            const image = `url(${imgUrl})`;
             return {
                 'background-image': image
             };
