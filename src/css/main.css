@@ -274,6 +274,9 @@ textarea {
     }
 }
 
+.Semitransparent-background {
+    background: rgba(255,255,255,0.5);
+}
 
 /* ボタンとして挙動するリンク(aタグなど)をボタンの見た目に近づける */
 .link-as-button {
