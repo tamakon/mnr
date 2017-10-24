@@ -1,9 +1,9 @@
 <template>
-    <div class="hero-header">
-        <div id="hero-img" v-bind:style="backGroundImgStyle()">
-            <div v-if="description" class="hero-description">{{ description }}</div>
+    <div>
+        <div id="the-hero-header-img" v-bind:style="backGroundImgStyle()">
+            <div v-if="description" class="the-hero-header-description">{{ description }}</div>
         </div>
-        <div id="hero-title">
+        <div id="the-hero-header-title">
             <h1>{{ title }}</h1>
         </div>
     </div>
@@ -32,18 +32,18 @@ export default {
 </script>
 
 <style>
-    #hero-img {
+    #the-hero-header-img {
         background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat;
         height: 350px;
     }
 
-    #hero-title {
+    #the-hero-header-title {
         text-align: center;
     }
 
-    .hero-description {
+    .the-hero-header-description {
         background: rgba(255,255,255,0.5);
         position: relative;
         top: 70%;
