@@ -1,7 +1,10 @@
 <template>
     <div>
         <div id="the-hero-header-img" v-bind:style="backGroundImgStyle()">
-            <div v-if="description" class="the-hero-header-description">{{ description }}</div>
+            <div v-if="description"
+                class="the-hero-header-description Semitransparent-background">
+                {{ description }}
+            </div>
         </div>
         <div id="the-hero-header-title">
             <h1>{{ title }}</h1>
@@ -31,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     #the-hero-header-img {
         background-position: 50% 50%;
         background-size: cover;
@@ -44,7 +47,6 @@ export default {
     }
 
     .the-hero-header-description {
-        background: rgba(255,255,255,0.5);
         position: relative;
         top: 70%;
         margin-left: auto;
