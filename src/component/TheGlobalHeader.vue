@@ -15,7 +15,7 @@
         <div id="the-global-header-menu-wrapper" v-if="isActive">
             <ul id="the-global-header-menu-list">
                 <li id="the-global-header-menu-item" v-for="item in links" :key="item.label">
-                    <router-link id="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
+                    <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
         </div>
@@ -124,12 +124,12 @@
         padding: 12px;
     }
 
-    #the-global-header-menu-link {
+    .the-global-header-menu-link {
         color: white;
         text-decoration: none;
     }
 
-    #the-global-header-menu-link:visited {
+    .the-global-header-menu-link:visited {
         color: white;
     }
 
