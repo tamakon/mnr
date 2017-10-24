@@ -14,7 +14,7 @@
         </div>
         <div id="the-global-header-menu-wrapper" v-if="isActive">
             <ul id="the-global-header-menu-list">
-                <li id="the-global-header-menu-item" v-for="item in links" :key="item.label">
+                <li class="the-global-header-menu-item" v-for="item in links" :key="item.label">
                     <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
