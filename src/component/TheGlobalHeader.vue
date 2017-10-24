@@ -2,7 +2,7 @@
     <div id="the-global-header-root">
         <div id="the-global-header-main-bar">
             <div id="the-global-header-logo-area">
-                <router-link id="the-global-header-logo-link" to="/">MNR</router-link>
+                <router-link id="the-global-header-logo-link" class="link-as-button" to="/">MNR</router-link>
             </div>
             <div id="the-global-header-menu-button-area">
                 <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
@@ -48,7 +48,6 @@
         width: 100%;
         background-color: darkcyan;
         color: white;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     #the-global-header-main-bar {
@@ -64,7 +63,6 @@
 
     #the-global-header-logo-link,
     #the-global-header-logo-link:visited {
-        text-decoration: none;
         color: white;
     }
 

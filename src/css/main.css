@@ -273,3 +273,11 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/* ボタンとして挙動するリンク(aタグなど)をボタンの見た目に近づける */
+.link-as-button {
+    text-decoration: none;
+    /* iOSなどでタップ時の反応で灰色くなるのを避ける */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
