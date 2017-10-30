@@ -12,3 +12,5 @@ npm install
 npm run build
 node main.js
 ```
+
+issue連携テスト
