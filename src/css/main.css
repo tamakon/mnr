@@ -274,13 +274,10 @@ textarea {
     }
 }
 
-.Semitransparent-background {
-    background: rgba(255,255,255,0.5);
+a {
+    text-decoration: none;
 }
 
-/* ボタンとして挙動するリンク(aタグなど)をボタンの見た目に近づける */
-.link-as-button {
-    text-decoration: none;
-    /* iOSなどでタップ時の反応で灰色くなるのを避ける */
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+.Semitransparent-background {
+    background: rgba(255,255,255,0.5);
 }

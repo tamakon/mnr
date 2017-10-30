@@ -2,7 +2,7 @@
     <div id="the-global-header-root">
         <div id="the-global-header-main-bar">
             <div id="the-global-header-logo-area">
-                <router-link id="the-global-header-logo-link" class="link-as-button" to="/">MNR</router-link>
+                <router-link id="the-global-header-logo-link" to="/">MNR</router-link>
             </div>
             <div id="the-global-header-menu-button-area">
                 <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
@@ -82,6 +82,8 @@
         position: relative;
         width: 32px;
         height: 32px;
+        /* iOSなどでタップ時の反応で灰色くなるのを避ける */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     #the-global-header-menu-button > span {
@@ -124,13 +126,8 @@
         padding: 12px;
     }
 
-    .the-global-header-menu-link {
-        color: white;
-        text-decoration: none;
-    }
-
-    .the-global-header-menu-link:visited {
+    .the-global-header-menu-link,
+    .the-global-header-menu-link:visited{
         color: white;
     }
-
 </style>
