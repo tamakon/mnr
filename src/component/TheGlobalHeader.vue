@@ -6,15 +6,16 @@
             </div>
             <div id="the-global-header-menu-button-area">
                 <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
+                    <!-- 各spanタグはハンバーガーメニューの横棒一つに対応(スタイルで横棒にしている) -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
         </div>
-        <div id="the-global-header-menu-wrapper" v-if="isActive">
+        <div v-if="isActive">
             <ul id="the-global-header-menu-list">
-                <li class="the-global-header-menu-item" v-for="item in links" :key="item.label">
+                <li v-for="item in links" :key="item.label">
                     <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
