@@ -1,21 +1,22 @@
 <template>
-    <div class="global-header">
-        <div class="initial-display">
-            <div class="logo-area">
-                <router-link class="logo-link" to="/">MNR</router-link>
+    <div id="the-global-header-root">
+        <div id="the-global-header-main-bar">
+            <div id="the-global-header-logo-area">
+                <router-link id="the-global-header-logo-link" to="/">MNR</router-link>
             </div>
-            <div class="menu-area">
-                <div class="menu-trigger" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
+            <div id="the-global-header-menu-button-area">
+                <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
+                    <!-- 各spanタグはハンバーガーメニューの横棒一つに対応(スタイルで横棒にしている) -->
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
         </div>
-        <div class="menu-wrapper" v-if="isActive">
-            <ul class="global-header-links">
-                <li class="link-item" v-for="item in links" :key="item.label">
-                    <router-link class="menu-link" :to="item.href">{{ item.label }}</router-link>
+        <div v-if="isActive">
+            <ul id="the-global-header-menu-list">
+                <li v-for="item in links" :key="item.label">
+                    <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
         </div>
@@ -43,50 +44,50 @@
 </script>
 
 <style scoped>
-    .global-header {
+    #the-global-header-root {
         position: absolute;
         width: 100%;
         background-color: darkcyan;
         color: white;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
-    .initial-display {
+    #the-global-header-main-bar {
         display: flex;
         justify-content: space-between;
     }
 
-    .logo-area {
+    #the-global-header-logo-area {
         font-size: 30px;
         font-family: Times, serif;
         padding: 6px 12px;
     }
 
-    .logo-link,
-    .logo-link:visited {
-        text-decoration: none;
+    #the-global-header-logo-link,
+    #the-global-header-logo-link:visited {
         color: white;
     }
 
-    .menu-area {
+    #the-global-header-menu-button-area {
         padding: 12px;
         height: 32px;
     }
 
-    .menu-trigger,
-    .menu-trigger > span {
+    #the-global-header-menu-button,
+    #the-global-header-menu-button > span {
         display: inline-block;
         transition: all .4s;
         box-sizing: border-box;
     }
 
-    .menu-trigger {
+    #the-global-header-menu-button {
         position: relative;
         width: 32px;
         height: 32px;
+        /* iOSなどでタップ時の反応で灰色くなるのを避ける */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
-    .menu-trigger > span {
+    #the-global-header-menu-button > span {
         position: absolute;
         width: 100%;
         height: 4px;
@@ -94,45 +95,40 @@
         background-color: white;
     }
 
-    .menu-trigger > span:nth-of-type(1) {
+    #the-global-header-menu-button > span:nth-of-type(1) {
         top: 0;
     }
 
-    .menu-trigger > span:nth-of-type(2) {
+    #the-global-header-menu-button > span:nth-of-type(2) {
         top: 14px;
     }
 
-    .menu-trigger > span:nth-of-type(3) {
+    #the-global-header-menu-button > span:nth-of-type(3) {
         top: 28px;
     }
 
-    .menu-trigger.active > span:nth-of-type(1) {
+    #the-global-header-menu-button.active > span:nth-of-type(1) {
         -webkit-transform: translateY(14px) rotate(-45deg);
         transform: translateY(14px) rotate(-45deg);
     }
 
-    .menu-trigger.active > span:nth-of-type(2) {
+    #the-global-header-menu-button.active > span:nth-of-type(2) {
         opacity: 0;
     }
 
-    .menu-trigger.active > span:nth-of-type(3) {
+    #the-global-header-menu-button.active > span:nth-of-type(3) {
         -webkit-transform: translateY(-14px) rotate(45deg);
         transform: translateY(-14px) rotate(45deg);
     }
 
-    .global-header-links {
+    #the-global-header-menu-list {
         margin: 0;
         list-style: none;
         padding: 12px;
     }
 
-    .menu-link {
-        color: white;
-        text-decoration: none;
-    }
-
-    .menu-link:visited {
+    .the-global-header-menu-link,
+    .the-global-header-menu-link:visited{
         color: white;
     }
-
 </style>
