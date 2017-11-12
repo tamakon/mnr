@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from '../component/app.vue'
-import Index from '../component/page/index.vue'
-import PreRelease from '../component/page/pre-release.vue'
+import Index from '../component/pages/index.vue'
+import PreRelease from '../component/pages/pre-release.vue'
 
 Vue.use(VueRouter);
 
