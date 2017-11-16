@@ -6,7 +6,7 @@
 </template>
 
 <script>
-    import TheGlobalHeader from '../cotent/TheGlobalHeader.vue'
+    import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
 
     export default {
         components: {

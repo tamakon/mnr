@@ -10,8 +10,8 @@
 </template>
 
 <script>
-    import TheGlobalHeader from '../cotent/TheGlobalHeader.vue'
-    import TheHeroHeader from '../cotent/TheHeroHeader.vue'
+    import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
+    import TheHeroHeader from '../contents/TheHeroHeader.vue'
 
     export default {
         components: {
