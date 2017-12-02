@@ -6,16 +6,22 @@
             title="Product"
             description="">
         </the-hero-header>
-        <div>
-            <p>いい感じの製品説明を書く予定</p>
+        <div class="contents">
+            <div>
+                <p>私たちは人々が抱えるしがらみから解放する事をミッションとし、あらゆるしがらみから開放する術を提供します。</p>
+            </div>
+            <h2>製品一覧</h2>
+            <card-link
+                link="/"
+                title="<<名前未定>>"
+                detail="<<名前未定>>は人間関係で起きるストレスから解放します。">
+            </card-link>
+            <card-link
+                link="./product/miner"
+                title="マイナー"
+                detail="マイナーは貴方の自由な時間を蝕む労働から解放します。">
+            </card-link>
         </div>
-        <full-width-iframe
-            style="width:100%"
-            src="https://www.youtube.com/embed/G0jg422FM6M?rel=0&amp;controls=0">
-        </full-width-iframe>
-        <p>いい感じの説明</p>
-        <p>いい感じの説明</p>
-        <p>いい感じの説明</p>
     </div>
 </template>
 
@@ -23,12 +29,14 @@
     import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
     import FullWidthIframe from '../contents/FullWidthIframe.vue'
+    import CardLink from '../contents/CardLink.vue'
 
     export default {
         components: {
             TheGlobalHeader,
             TheHeroHeader,
-            FullWidthIframe
+            FullWidthIframe,
+            CardLink
         }
     }
 </script>
