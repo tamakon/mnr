@@ -139,6 +139,8 @@
         display: block;
         padding: 5px 0;
     }
+
+    .the-global-header-menu-link,
     .the-global-header-menu-link:visited{
         color: white;
     }
