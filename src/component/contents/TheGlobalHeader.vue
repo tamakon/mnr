@@ -1,9 +1,12 @@
 <template>
     <div id="the-global-header-root">
         <div id="the-global-header-main-bar">
-            <div id="the-global-header-logo-area">
-                <router-link id="the-global-header-logo-link" to="/">MNR</router-link>
-            </div>
+            <router-link id="the-global-header-logo-link" to="/">
+                <div id="the-global-header-logo-area">
+                    <img src="./img/logo.png">
+                    <span>MNR</span>
+                </div>
+            </router-link>
             <div id="the-global-header-menu-button-area">
                 <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
                     <!-- 各spanタグはハンバーガーメニューの横棒一つに対応(スタイルで横棒にしている) -->
@@ -46,6 +49,7 @@
 <style scoped>
     #the-global-header-root {
         position: absolute;
+        z-index: 1;
         width: 100%;
         background-color: darkcyan;
         color: white;
@@ -87,6 +91,10 @@
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
+    #the-global-header-logo-area > img {
+        height: 40px;
+    }
+
     #the-global-header-menu-button > span {
         position: absolute;
         width: 100%;
@@ -125,6 +133,11 @@
         margin: 0;
         list-style: none;
         padding: 12px;
+    }
+
+    .the-global-header-menu-link {
+        display: block;
+        padding: 5px 0;
     }
 
     .the-global-header-menu-link,
