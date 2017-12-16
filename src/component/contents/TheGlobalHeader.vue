@@ -48,7 +48,7 @@
 
 <style scoped>
     #the-global-header-root {
-        position: absolute;
+        position: fixed;
         z-index: 1;
         width: 100%;
         background-color: darkcyan;
