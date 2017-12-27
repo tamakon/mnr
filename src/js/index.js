@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from '../component/app.vue'
 import Index from '../component/pages/index.vue'
-import PreRelease from '../component/pages/pre-release.vue'
+import PreRelease from '../component/pages/news.vue'
 import Product from '../component/pages/product.vue'
 import Miner from '../component/pages/product/miner.vue'
 
@@ -13,7 +13,7 @@ new Vue({
     router: new VueRouter({
         routes: [
             {path: "/", component: Index},
-            {path: "/pre-release", component: PreRelease},
+            {path: "/news", component: PreRelease},
             {path: "/product", component: Product},
             {path: "/product/miner", component: Miner},
         ]
