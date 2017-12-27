@@ -12,7 +12,7 @@
             </div>
             <h2>製品一覧</h2>
             <card-link
-                link="/"
+                link="./product/vrc"
                 title="<<名前未定>>"
                 detail="<<名前未定>>は人間関係で起きるストレスから解放します。">
             </card-link>
