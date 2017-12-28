@@ -1,6 +1,5 @@
 <template>
     <div id="vrc">
-        <the-global-header />
         <div class="contents">
             <h1>〜名称考え中〜</h1>
             <div>
@@ -26,13 +25,11 @@
 </template>
 
 <script>
-    import TheGlobalHeader from '../../contents/TheGlobalHeader.vue'
     import FullWidthIframe from '../../contents/FullWidthIframe.vue'
     import RectangleButton from '../../contents/RectangleButton.vue'
 
     export default {
         components: {
-            TheGlobalHeader,
             FullWidthIframe,
             RectangleButton,
         }
