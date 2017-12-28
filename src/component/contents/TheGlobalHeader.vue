@@ -2,7 +2,7 @@
     <div id="the-global-header-root">
         <div id="the-global-header-main-bar">
             <router-link id="the-global-header-logo-link" to="/">
-                <div id="the-global-header-logo-area">
+                <div id="the-global-header-logo-area" v-on:click="closeToggleMenu">
                     <img src="./img/logo.png">
                     <span>MNR</span>
                 </div>
@@ -18,7 +18,7 @@
         </div>
         <div v-if="isActive">
             <ul id="the-global-header-menu-list">
-                <li v-for="item in links" :key="item.label">
+                <li v-for="item in links" :key="item.label" v-on:click="closeToggleMenu">
                     <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                 </li>
             </ul>
@@ -41,6 +41,9 @@
         methods: {
             toggleMenu() {
                 this.isActive = !this.isActive;
+            },
+            closeToggleMenu() {
+                this.isActive = false;
             }
         }
     }
