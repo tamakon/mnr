@@ -1,7 +1,7 @@
 <template>
-    <div id="pre-release">
+    <div id="news">
         <the-global-header />
-        <div>ぷれりりーすー</div>
+        <div>ニュース</div>
     </div>
 </template>
 
