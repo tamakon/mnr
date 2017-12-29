@@ -30,7 +30,7 @@
     export default {
         data() {
             const links = [{label: "会社情報", href: "./undefined.html" },
-                            {label: "主な事業", href: "./product" },
+                            {label: "主な事業", href: "/product" },
                             {label: "ニュース", href: "/news"},
                             {label: "お問い合わせ", href: "./undefined.html" }];
             return {
