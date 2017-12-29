@@ -42,7 +42,6 @@ h3::before {
 }
 
 .contents {
-    padding-top: 40px;
     padding-bottom: 40px;
 }
 
