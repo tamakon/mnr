@@ -10,7 +10,13 @@
             <div>
                 <p>弊社について、ご質問や採用希望等がございましたら下記フォームよりお問い合わせください。</p>
             </div>
-            <rectangle-button value="送信"/>
+            <span>名前</span>
+            <form-input />
+            <span>メールアドレス</span>
+            <form-input />
+            <span>内容</span>
+            <form-input :rows="4" />
+            <rectangle-button style="margin-top:20px" value="送信"/>
         </div>
     </div>
 </template>
@@ -18,12 +24,14 @@
 <script>
     import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
+    import FormInput from '../contents/FormInput.vue'
     import RectangleButton from '../contents/RectangleButton.vue'
 
     export default {
         components: {
             TheGlobalHeader,
             TheHeroHeader,
+            FormInput,
             RectangleButton,
         }
     }
