@@ -6,17 +6,20 @@
             title="Index"
             description="最高の価値をあなたに">
         </the-hero-header>
+        <the-global-footer />
     </div>
 </template>
 
 <script>
     import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
+    import TheGlobalFooter from '../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
             TheGlobalHeader,
-            TheHeroHeader
+            TheHeroHeader,
+            TheGlobalFooter
         }
     }
 </script>
