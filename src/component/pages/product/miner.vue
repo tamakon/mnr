@@ -17,17 +17,20 @@
                 <p>contentsの説明</p>
             </div>
         </div>
+        <the-global-footer />
     </div>
 </template>
 
 <script>
     import TheGlobalHeader from '../../contents/TheGlobalHeader.vue'
     import FullWidthIframe from '../../contents/FullWidthIframe.vue'
+    import TheGlobalFooter from '../../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
             TheGlobalHeader,
             FullWidthIframe,
+            TheGlobalFooter
         }
     }
 </script>
