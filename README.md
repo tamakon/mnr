@@ -12,3 +12,11 @@ npm install
 npm run build
 node main.js
 ```
+
+
+## 開発
+
+watchifyによる快適なビルドライフを実装。
+```
+npm run watch
+```
