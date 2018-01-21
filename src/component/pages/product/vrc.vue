@@ -21,20 +21,17 @@
             <rectangle-button value="製品購入"/>
             <span class="vrc-comments">※当製品は現在製造中止しております。</span>
         </div>
-        <the-global-footer />
     </div>
 </template>
 
 <script>
     import FullWidthIframe from '../../contents/FullWidthIframe.vue'
     import RectangleButton from '../../contents/RectangleButton.vue'
-    import TheGlobalFooter from '../../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
             FullWidthIframe,
             RectangleButton,
-            TheGlobalFooter
         }
     }
 </script>

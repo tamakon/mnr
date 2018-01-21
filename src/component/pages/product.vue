@@ -21,7 +21,6 @@
                 detail="マイナーは貴方の自由な時間を蝕む労働から解放します。">
             </card-link>
         </div>
-        <the-global-footer />
     </div>
 </template>
 
@@ -29,14 +28,12 @@
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
     import FullWidthIframe from '../contents/FullWidthIframe.vue'
     import CardLink from '../contents/CardLink.vue'
-    import TheGlobalFooter from '../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
             TheHeroHeader,
             FullWidthIframe,
             CardLink,
-            TheGlobalFooter
         }
     }
 </script>

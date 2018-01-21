@@ -16,18 +16,15 @@
                 <p>contentsの説明</p>
             </div>
         </div>
-        <the-global-footer />
     </div>
 </template>
 
 <script>
     import FullWidthIframe from '../../contents/FullWidthIframe.vue'
-    import TheGlobalFooter from '../../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
             FullWidthIframe,
-            TheGlobalFooter
         }
     }
 </script>
