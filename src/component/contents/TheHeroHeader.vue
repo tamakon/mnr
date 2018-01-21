@@ -39,7 +39,7 @@ export default {
         background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 250px;
+        height: 200px;
     }
 
     #the-hero-header-title {
