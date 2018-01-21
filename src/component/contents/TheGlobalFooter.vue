@@ -1,19 +1,19 @@
 <template>
     <div id="the-global-footer">
-        <li v-for="item in shops" :key="item.name">
+        <li v-for="shop in shops" :key="shop.name">
             <div class="shop-block">
-                <h3>{{ item.name }}</h3>
-                <p>{{ item.addr }}</p>
-                <a id="button-google-map" v-bind:href="item.href">Google Map</a>
+                <h3>{{ shop.name }}</h3>
+                <p>{{ shop.addr }}</p>
+                <a class="button-google-map" v-bind:href="shop.href">Google Map</a>
             </div>
         </li>
-        <div id="copyright">{{copyright}}</div>
+        <div id="copyright">{{ copyright }}</div>
     </div>
 </template>
 
 <script>
 export default {
-    data(){
+    data() {
         const shops = [
             {
                 name: "東京本店",
@@ -44,10 +44,10 @@ export default {
         background-color: #a1a1a1;
         text-align: center;
         padding: 1em;
-        list-style:none;
+        list-style: none;
     }
-    #button-google-map {
-        padding:10px 30px 10px 40px !important;
+    .button-google-map {
+        padding: 10px 30px 10px 40px !important;
         background: #0098d9 url(./img/map.png) no-repeat 9% center/18px;
     }
     .shop-block {
