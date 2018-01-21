@@ -33,7 +33,7 @@
         components: {
             TheHeroHeader,
             FullWidthIframe,
-            CardLink
+            CardLink,
         }
     }
 </script>

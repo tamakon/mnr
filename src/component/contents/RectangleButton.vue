@@ -1,11 +1,16 @@
 <template>
-    <input type="button" v-bind:value="value">
+    <input type="button" v-bind:value="value" v-on:click="onClick">
 </template>
 
 <script>
 export default {
     props: {
         'value': String,
+    },
+    methods: {
+        onClick() {
+            this.$emit('onClick');
+        }
     }
 }
 </script>
