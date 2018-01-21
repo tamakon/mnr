@@ -1,6 +1,7 @@
 <template>
     <div id="news">
         <div>ニュース</div>
+        <the-global-footer />
     </div>
 </template>
 
