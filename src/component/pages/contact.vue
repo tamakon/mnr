@@ -1,6 +1,5 @@
 <template>
     <div id="contact">
-        <the-global-header />
         <the-hero-header
             img-source="https://www.pakutaso.com/shared/img/thumb/ss76_bbwosousasurute14172508_TP_V.jpg"
             title="Contact"
@@ -31,14 +30,12 @@
 </template>
 
 <script>
-    import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
     import FormInput from '../contents/FormInput.vue'
     import RectangleButton from '../contents/RectangleButton.vue'
 
     export default {
         components: {
-            TheGlobalHeader,
             TheHeroHeader,
             FormInput,
             RectangleButton,
