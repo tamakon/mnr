@@ -38,9 +38,17 @@
                 links: links
             }
         },
+        watch: {
+            '$route' (_to, _from) {
+                this.closeToggleMenu();
+            }
+        },
         methods: {
             toggleMenu() {
                 this.isActive = !this.isActive;
+            },
+            closeToggleMenu() {
+                this.isActive = false;
             }
         }
     }

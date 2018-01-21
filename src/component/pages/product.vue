@@ -1,6 +1,5 @@
 <template>
     <div id="product">
-        <the-global-header />
         <the-hero-header
             img-source="https://www.pakutaso.com/shared/img/thumb/PAK85_coding15095904_TP_V.jpg"
             title="Product"
@@ -22,24 +21,19 @@
                 detail="マイナーは貴方の自由な時間を蝕む労働から解放します。">
             </card-link>
         </div>
-        <the-global-footer />
     </div>
 </template>
 
 <script>
-    import TheGlobalHeader from '../contents/TheGlobalHeader.vue'
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
     import FullWidthIframe from '../contents/FullWidthIframe.vue'
     import CardLink from '../contents/CardLink.vue'
-    import TheGlobalFooter from '../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
-            TheGlobalHeader,
             TheHeroHeader,
             FullWidthIframe,
             CardLink,
-            TheGlobalFooter
         }
     }
 </script>

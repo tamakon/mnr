@@ -1,6 +1,5 @@
 <template>
     <div id="vrc">
-        <the-global-header />
         <div class="contents">
             <h1>〜名称考え中〜</h1>
             <div>
@@ -22,22 +21,17 @@
             <rectangle-button value="製品購入"/>
             <span class="vrc-comments">※当製品は現在製造中止しております。</span>
         </div>
-        <the-global-footer />
     </div>
 </template>
 
 <script>
-    import TheGlobalHeader from '../../contents/TheGlobalHeader.vue'
     import FullWidthIframe from '../../contents/FullWidthIframe.vue'
     import RectangleButton from '../../contents/RectangleButton.vue'
-    import TheGlobalFooter from '../../contents/TheGlobalFooter.vue'
 
     export default {
         components: {
-            TheGlobalHeader,
             FullWidthIframe,
             RectangleButton,
-            TheGlobalFooter
         }
     }
 </script>
