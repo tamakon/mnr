@@ -23,7 +23,7 @@
                 <span>内容</span>
                 <span class="contact-validation-err" v-show="store.text.errMsg.length > 0">※{{ store.text.errMsg }}</span>
             </div>
-            <form-input v-model="store.text.value" :rows="4" />
+            <form-input v-model="store.text.value" :rows="8" />
             <rectangle-button style="margin-top:20px" v-on:onClick="submit" value="送信"/>
         </div>
     </div>
