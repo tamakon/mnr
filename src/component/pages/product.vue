@@ -35,7 +35,7 @@
                 {
                     link: "./product/secretary",
                     title: "AI秘書",
-                    detail: ""
+                    detail: "AI秘書はあなたの生活を最適化させるパートナーとなる存在です"
                 },
                 {
                     link: "./product/miner",
