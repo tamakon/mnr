@@ -10,16 +10,11 @@
                 <p>私たちは人々が抱えるしがらみから解放する事をミッションとし、あらゆるしがらみから開放する術を提供します。</p>
             </div>
             <h2>製品一覧</h2>
-            <card-link
-                link="./product/vrc"
-                title="<<名前未定>>"
-                detail="<<名前未定>>は人間関係で起きるストレスから解放します。">
-            </card-link>
-            <card-link
-                link="./product/miner"
-                title="マイナー"
-                detail="マイナーは貴方の自由な時間を蝕む労働から解放します。">
-            </card-link>
+            <card-link v-for="link in links" :key="link.link"
+                :link="link.link"
+                :title="link.title"
+                :detail="link.detail"
+            />
         </div>
     </div>
 </template>
@@ -30,6 +25,28 @@
     import CardLink from '../contents/CardLink.vue'
 
     export default {
+        data() {
+            const links = [
+                {
+                link: "./product/vrc",
+                title: "<<名前未定>>",
+                detail: "<<名前未定>>は人間関係で起きるストレスから解放します。"
+                },
+                {
+                    link: "./product/secretary",
+                    title: "AI秘書",
+                    detail: "AI秘書はあなたの生活を最適化させるパートナーとなる存在です"
+                },
+                {
+                    link: "./product/miner",
+                    title: "マイナー",
+                    detail: "マイナーは貴方の自由な時間を蝕む労働から解放します。"
+                },
+            ];
+            return {
+                links
+            }
+        },
         components: {
             TheHeroHeader,
             FullWidthIframe,
