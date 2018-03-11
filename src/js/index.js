@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from '../component/app.vue'
 import Root from '../component/pages/root.vue'
+import NotFound from '../component/pages/notfound.vue'
 import Index from '../component/pages/index.vue'
 import News from '../component/pages/news.vue'
 import Product from '../component/pages/product.vue'
@@ -16,15 +17,17 @@ new Vue({
     el: "#app",
     router: new VueRouter({
         routes: [
-            { path: "/", component: Root, redirect: "/index",
+            { path: "/", component: Root,
                 children: [
-                    { path: "index", component: Index },
+                    { path: "/", component: Index },
                     { path: "news", component: News },
                     { path: "product", component: Product },
                     { path: "product/miner", component: Miner },
                     { path: "product/vrc", component: Vrc },
                     { path: "product/secretary", component: Secretary },
-                    { path: "/contact", component: Contact },
+                    { path: "contact", component: Contact },
+                    { path: "404", component: NotFound },
+                    { path: "*", redirect: "404" },
                 ]
             },
         ],
