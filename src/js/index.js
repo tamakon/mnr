@@ -7,6 +7,7 @@ import Index from '../component/pages/index.vue'
 import News from '../component/pages/news.vue'
 import Product from '../component/pages/product.vue'
 import Miner from '../component/pages/product/miner.vue'
+import Secretary from '../component/pages/product/secretary.vue'
 import Vrc from '../component/pages/product/vrc.vue'
 import Contact from '../component/pages/contact.vue'
 
@@ -23,6 +24,7 @@ new Vue({
                     { path: "product", component: Product },
                     { path: "product/miner", component: Miner },
                     { path: "product/vrc", component: Vrc },
+                    { path: "product/secretary", component: Secretary },
                     { path: "contact", component: Contact },
                     { path: "404", component: NotFound },
                     { path: "*", redirect: "404" },
