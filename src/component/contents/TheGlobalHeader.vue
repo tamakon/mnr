@@ -1,27 +1,29 @@
 <template>
-    <div id="the-global-header-root">
-        <div id="the-global-header-main-bar">
-            <router-link id="the-global-header-logo-link" to="/">
-                <div id="the-global-header-logo-area">
-                    <img src="./img/logo.png">
-                    <span>MNR</span>
-                </div>
-            </router-link>
-            <div id="the-global-header-menu-button-area">
-                <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
-                    <!-- 各spanタグはハンバーガーメニューの横棒一つに対応(スタイルで横棒にしている) -->
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <div id="the-global-header">
+        <div id="the-global-header-root">
+            <div id="the-global-header-main-bar">
+                <router-link id="the-global-header-logo-link" to="/">
+                    <div id="the-global-header-logo-area" v-on:click="closeToggleMenu">
+                        <img src="./img/logo.png">
+                        <span>MNR</span>
+                    </div>
+                </router-link>
+                <div id="the-global-header-menu-button-area">
+                    <div id="the-global-header-menu-button" v-bind:class="{active: isActive}" v-on:click="toggleMenu">
+                        <!-- 各spanタグはハンバーガーメニューの横棒一つに対応(スタイルで横棒にしている) -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div v-if="isActive">
-            <ul id="the-global-header-menu-list">
-                <li v-for="item in links" :key="item.label">
-                    <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
-                </li>
-            </ul>
+            <div v-if="isActive">
+                <ul id="the-global-header-menu-list">
+                    <li v-for="item in links" :key="item.label" v-on:click="closeToggleMenu">
+                        <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
@@ -30,9 +32,9 @@
     export default {
         data() {
             const links = [{label: "会社情報", href: "/concept" },
-                            {label: "主な事業", href: "./product" },
+                            {label: "主な事業", href: "/product" },
                             {label: "ニュース", href: "/news"},
-                            {label: "お問い合わせ", href: "./undefined.html" }];
+                            {label: "お問い合わせ", href: "/contact" }];
             return {
                 isActive: false,
                 links: links
@@ -55,6 +57,9 @@
 </script>
 
 <style scoped>
+    #the-global-header {
+        padding-bottom: 56px;
+    }
     #the-global-header-root {
         position: fixed;
         z-index: 1;
