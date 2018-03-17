@@ -4,7 +4,7 @@
             <div class="shop-block">
                 <h3>{{ shop.name }}</h3>
                 <p>{{ shop.addr }}</p>
-                <a class="button-google-map" v-bind:href="shop.href">Google Map</a>
+                <a class="button-google-map" v-bind:href="shop.href"><img src="./img/map.png">Google Map</a>
             </div>
         </li>
         <div id="copyright">{{ copyright }}</div>
@@ -41,19 +41,33 @@ export default {
 
 <style>
     #the-global-footer {
-        background-color: #a1a1a1;
+        background-color: #393E46;
         text-align: center;
-        padding: 1em;
+        padding: 3em 0.5em 1em;
         list-style: none;
     }
-    .button-google-map {
-        padding: 10px 30px 10px 40px !important;
-        background: #0098d9 url(./img/map.png) no-repeat 9% center/18px;
+    .button-google-map,
+    .shop-block p {
+        font-size: 12px;
     }
     .shop-block {
         margin: 0px 0px 1em 0px;
         padding: 1em;
-        background-color: darkcyan;
-        border-radius: 1em;
+        background: #EEEEEE;
+        text-align: left;
+    }
+    .shop-block h3,
+    .shop-block p {
+        margin: 0;
+    }
+    .shop-block a {
+        color: #00ADB5;
+    }
+    .shop-block img {
+        height: 20px;
+    }
+    #copyright {
+        margin-top: 1em;
+        color: #EEEEEE;
     }
 </style>

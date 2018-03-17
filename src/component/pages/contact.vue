@@ -94,9 +94,6 @@
 </script>
 
 <style scoped>
-.contents {
-    padding-bottom: 40px;
-}
 .contact-validation-err {
     color: red;
 }

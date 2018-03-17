@@ -4,3 +4,4 @@
 
 <style src="../css/normalize.css"></style>
 <style src="../css/main.css"></style>
+<style src="../css/theme.css"></style>

@@ -65,9 +65,6 @@
 <style scoped>
 h4::before {
   content: '\002713';
-  color: darkcyan;
-}
-.contents {
-    padding-bottom: 40px;
+  color: #00ADB5;
 }
 </style>
