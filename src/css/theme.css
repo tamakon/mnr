@@ -1,0 +1,11 @@
+body {
+    color: #393E46;
+}
+
+h1, h2, h3 {
+    color: #222831;
+}
+
+h2 {
+    border-bottom: solid #00ADB5;
+}
