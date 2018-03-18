@@ -38,13 +38,8 @@
 <style scoped>
 h3::before {
   content: '\002713';
-  color: darkcyan;
+  color: #00ADB5;
 }
-
-.contents {
-    padding-bottom: 40px;
-}
-
 
 .vrc-comments {
     color: gray;

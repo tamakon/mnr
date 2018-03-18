@@ -64,7 +64,7 @@
         position: fixed;
         z-index: 1;
         width: 100%;
-        background-color: darkcyan;
+        background-color: #393E46;
         color: white;
     }
 
