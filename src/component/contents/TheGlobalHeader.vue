@@ -17,13 +17,13 @@
                     </div>
                 </div>
             </div>
-            <div v-if="isActive">
-                <ul id="the-global-header-menu-list">
+            <transition name="menu-fade">
+                <ul id="the-global-header-menu-list" v-if="isActive">
                     <li v-for="item in links" :key="item.label" v-on:click="closeToggleMenu">
                         <router-link class="the-global-header-menu-link" :to="item.href">{{ item.label }}</router-link>
                     </li>
                 </ul>
-            </div>
+            </transition>
         </div>
     </div>
 </template>
@@ -64,13 +64,15 @@
         position: fixed;
         z-index: 1;
         width: 100%;
-        background-color: #393E46;
-        color: white;
     }
 
     #the-global-header-main-bar {
         display: flex;
         justify-content: space-between;
+        background-color: #393E46;
+        color: white;
+        position: relative;
+        z-index: 1;
     }
 
     #the-global-header-logo-area {
@@ -146,6 +148,10 @@
         margin: 0;
         list-style: none;
         padding: 12px;
+        background-color: #393E46;
+        color: white;
+        position: relative;
+        z-index: 0;
     }
 
     .the-global-header-menu-link {
@@ -156,5 +162,13 @@
     .the-global-header-menu-link,
     .the-global-header-menu-link:visited{
         color: white;
+    }
+
+    .menu-fade-enter-active, .menu-fade-leave-active {
+        transition: all .4s;
+    }
+    .menu-fade-enter, .menu-fade-leave-to {
+        /*transform: translateY(-100%);*/
+        opacity: 0;
     }
 </style>
