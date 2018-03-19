@@ -165,10 +165,9 @@
     }
 
     .menu-fade-enter-active, .menu-fade-leave-active {
-        transition: all .4s;
+        transition: all .2s;
     }
     .menu-fade-enter, .menu-fade-leave-to {
-        /*transform: translateY(-100%);*/
-        opacity: 0;
+        transform: translateY(-100%);
     }
 </style>
