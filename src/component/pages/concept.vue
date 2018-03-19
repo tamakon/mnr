@@ -8,7 +8,8 @@
         <div class="contents">
             <section>
                 <h2>企業理念</h2>
-                <p>TODO</p>
+                <p>心のネットワーク革命を実現する</p>
+                <p>コミュニケーションにおける苦しさを排除し、人と社会に平穏をもたらす</p>
             </section >
             <section>
                 <h2>社長の言葉</h2>
