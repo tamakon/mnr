@@ -37,6 +37,11 @@
                     私たちは「心のネットワーク革命」を目指し、その革命の第一歩としてvrc、AI秘書、マイナーといった製品を作成しています。
                     私達の製品が少しでもより良い社会に貢献できればと考えております。
                 </p>
+                <div id="concept-ceo-message-author">
+                    <img src="/img/face-haraguchi.png" width="150" height="150">
+                    <div id="concept-ceo-message-author-role">MNR 代表取締役社長</div>
+                    <div id="concept-ceo-message-author-name">原口 広樹</div>
+                </div>
             </section>
         </div>
     </div>
@@ -51,3 +56,18 @@
         }
     }
 </script>
+
+<style scoped>
+    #concept-ceo-message-author {
+        margin: 16px auto;
+        text-align: center;
+    }
+    #concept-ceo-message-author-role {
+        margin: 6px;
+        font-size: 12px;
+    }
+    #concept-ceo-message-author-name {
+        margin: 6px;
+        font-size: 12px;
+    }
+</style>
