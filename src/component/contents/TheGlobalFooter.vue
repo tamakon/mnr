@@ -69,5 +69,6 @@ export default {
     #copyright {
         margin-top: 1em;
         color: #EEEEEE;
+        font-family: Roboto, Arial, Helvetica, Tahoma, Verdana;
     }
 </style>
