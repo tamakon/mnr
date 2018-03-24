@@ -31,7 +31,7 @@
 <script>
     export default {
         data() {
-            const links = [{label: "会社情報", href: "./undefined.html" },
+            const links = [{label: "会社情報", href: "/concept" },
                             {label: "主な事業", href: "/product" },
                             {label: "ニュース", href: "/news"},
                             {label: "お問い合わせ", href: "/contact" }];

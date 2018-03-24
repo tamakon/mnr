@@ -4,6 +4,7 @@ import App from '../component/app.vue'
 import Root from '../component/pages/root.vue'
 import NotFound from '../component/pages/notfound.vue'
 import Index from '../component/pages/index.vue'
+import Concept from "../component/pages/concept.vue"
 import News from '../component/pages/news.vue'
 import Product from '../component/pages/product.vue'
 import Miner from '../component/pages/product/miner.vue'
@@ -20,6 +21,7 @@ new Vue({
             { path: "/", component: Root,
                 children: [
                     { path: "/", component: Index },
+                    { path: "concept", component: Concept },
                     { path: "news", component: News },
                     { path: "product", component: Product },
                     { path: "product/miner", component: Miner },
