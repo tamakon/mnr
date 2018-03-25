@@ -18,7 +18,7 @@
             <div class="index-content-root">
                 <div class="index-content-text">
                     <div class="index-content-title">AI秘書</div>
-                    j<div class="index-content-desc">あなたの生活を最適化させる<br>パートナーです。</div>
+                    <div class="index-content-desc">あなたの生活を最適化させる<br>パートナーです。</div>
                 </div>
                 <figure id="index-content-image-secretary" class="index-content-image"></figure>
             </div>
