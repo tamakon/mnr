@@ -46,6 +46,7 @@ input {
     height: 40px;
     background-color: whitesmoke;
     border: none;
+    padding: 1px;
 }
 textarea {
     width: 100%;
