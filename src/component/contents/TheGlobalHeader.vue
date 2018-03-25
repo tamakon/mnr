@@ -62,7 +62,7 @@
     }
     #the-global-header-root {
         position: fixed;
-        z-index: 1;
+        z-index: 12;
         width: 100%;
     }
 
@@ -72,7 +72,7 @@
         background-color: #393E46;
         color: white;
         position: relative;
-        z-index: 1;
+        z-index: 12;
     }
 
     #the-global-header-logo-area {
@@ -151,7 +151,7 @@
         background-color: #393E46;
         color: white;
         position: relative;
-        z-index: 0;
+        z-index: 11;
     }
 
     .the-global-header-menu-link {
