@@ -6,7 +6,7 @@
                 {{ description }}
             </div>
         </div>
-        <div id="the-hero-header-title">
+        <div id="the-hero-header-title" v-if="title">
             <h1>{{ title }}</h1>
         </div>
     </div>
