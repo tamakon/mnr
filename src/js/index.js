@@ -10,6 +10,7 @@ import Product from '../component/pages/product.vue'
 import Miner from '../component/pages/product/miner.vue'
 import Secretary from '../component/pages/product/secretary.vue'
 import Vrc from '../component/pages/product/vrc.vue'
+import Recruit from '../component/pages/recruit.vue'
 import Contact from '../component/pages/contact.vue'
 
 Vue.use(VueRouter);
@@ -28,6 +29,7 @@ new Vue({
                     { path: "product/vrc", component: Vrc },
                     { path: "product/secretary", component: Secretary },
                     { path: "contact", component: Contact },
+                    { path: "recruit", component: Recruit },
                     { path: "404", component: NotFound },
                     { path: "*", redirect: "404" },
                 ]

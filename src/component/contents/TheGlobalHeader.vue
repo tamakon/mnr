@@ -34,6 +34,7 @@
             const links = [{label: "会社情報", href: "/concept" },
                             {label: "主な事業", href: "/product" },
                             {label: "ニュース", href: "/news"},
+                            {label: "採用情報", href: "/recruit" },
                             {label: "お問い合わせ", href: "/contact" }];
             return {
                 isActive: false,
