@@ -55,7 +55,7 @@
                     name: makeModel("氏名", 'empty'),
                     email: makeModel("メールアドレス", 'email'),
                     text: makeModel("内容", 'empty'),
-                }
+                },
             }
         },
         methods: {
@@ -70,8 +70,10 @@
                 }
                 if (isValid) {
                     // 正常系処理
-                    console.log("なんもしてないやでw");
-                    alert("送信しました");
+                    setTimeout(() => {
+                        console.log("なんもしてないやでw");
+                        alert("送信しました");
+                    }, 1000);
                 }
             },
 
