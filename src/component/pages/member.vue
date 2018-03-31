@@ -30,7 +30,7 @@
                         私が得意とするこのITを用いて全ての人々のしがらみから解放して生活に喜びを与えることが私の目標です。
                     </p>
                     <div class="concept-ceo-message-author">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/face-tronperidot.png?alt=media&token=36eecf52-b003-45b1-b056-c29f257f981c" width="150" height="150">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/kaneko.png?alt=media&token=f2707373-9d69-4876-ad1a-46d875a1f64d" width="150" height="150">
                         <div class="concept-ceo-message-author-role">MNR システムディレクター</div>
                         <div class="concept-ceo-message-author-name">金子 佳寛</div>
                     </div>
