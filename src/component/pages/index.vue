@@ -1,7 +1,7 @@
 <template>
     <div id="index">
         <the-hero-header
-            img-source="https://www.pakutaso.com/shared/img/thumb/ransomwareIMGL1908_TP_V.jpg"
+            img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-top.jpg?alt=media&token=9b988cbb-1e8f-4bba-b064-0f3b188d7d5d"
             title=""
             description="最高の価値をあなたに">
         </the-hero-header>
@@ -84,17 +84,17 @@
         z-index: 1;
     }
     #index-content-image-vrc {
-        background: url(https://www.pakutaso.com/shared/img/thumb/yuseiIMGL2443_TP_V.jpg) no-repeat center;
+        background: url(https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/top-facelook.jpg?alt=media&token=089cebfd-4235-4e24-8cf5-8a8f8d4dc826) no-repeat center;
         background-size: cover;
         padding-bottom: 67.625%;
     }
     #index-content-image-secretary {
-        background: url(https://www.pakutaso.com/shared/img/thumb/iPhonexIMGL6681_TP_V.jpg) no-repeat center;
+        background: url(https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/top-mnecho.jpg?alt=media&token=9e3b7dac-a40a-4358-9acc-d9f2bf6875a5) no-repeat center;
         background-size: cover;
         padding-bottom: 67.625%;
     }
     #index-content-image-miner {
-        background: url(https://www.pakutaso.com/shared/img/thumb/bitcoinIMGL3745_TP_V.jpg) no-repeat center;
+        background: url(https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/top-miner.jpg?alt=media&token=7204ab69-16fa-4d58-a52a-f31515364e20) no-repeat center;
         background-size: cover;
         padding-bottom: 67.625%;
     }

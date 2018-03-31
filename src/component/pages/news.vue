@@ -1,7 +1,7 @@
 <template>
     <div id="news">
         <the-hero-header
-            img-source="https://www.pakutaso.com/shared/img/thumb/PAK86_codeing20140517.jpg"
+            img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-news.jpg?alt=media&token=26e25c21-4f6f-4aaf-9cf9-57e1da489bb4"
             title="News"
             description="">
         </the-hero-header>

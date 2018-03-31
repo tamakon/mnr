@@ -1,7 +1,7 @@
 <template>
     <div id="product">
         <the-hero-header
-            img-source="https://www.pakutaso.com/shared/img/thumb/PAK85_coding15095904_TP_V.jpg"
+            img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/top-product.jpg?alt=media&token=b6239a45-5b67-4d8c-832f-c7f95d87cfb7"
             title="Product"
             description="">
         </the-hero-header>
