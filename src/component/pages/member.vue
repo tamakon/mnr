@@ -17,11 +17,11 @@
                         ぜひ手にとってお試しください！
                     </p>
                     <div class="concept-ceo-message-author">
-                        <img src="/img/face-haraguchi.png" width="150" height="150">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/face-takashi1coq.png?alt=media&token=795ff27b-b250-4081-88f6-b83fde8e1664" width="150" height="150">
                         <div class="concept-ceo-message-author-role">MNR コンサルタント・コーダー</div>
                         <div class="concept-ceo-message-author-name">村山 隆</div>
                     </div>
-                    <h3>master branch</h3>
+                    <h3>金子 佳寛</h3>
                     <p>
                         ITで人々のしがらみから解放させることが私の目標です。
                     </p>
@@ -30,9 +30,9 @@
                         私が得意とするこのITを用いて全ての人々のしがらみから解放して生活に喜びを与えることが私の目標です。
                     </p>
                     <div class="concept-ceo-message-author">
-                        <img src="/img/face-haraguchi.png" width="150" height="150">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/face-tronperidot.png?alt=media&token=36eecf52-b003-45b1-b056-c29f257f981c" width="150" height="150">
                         <div class="concept-ceo-message-author-role">MNR システムディレクター</div>
-                        <div class="concept-ceo-message-author-name">master branch</div>
+                        <div class="concept-ceo-message-author-name">金子 佳寛</div>
                     </div>
             </section>
         </div>
