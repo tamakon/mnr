@@ -1,7 +1,7 @@
 <template>
     <div id="vrc">
         <div class="contents">
-            <h1>〜名称考え中〜</h1>
+            <h1>FaceLook</h1>
             <div>
                 <p>この製品は、貴方が抱える日頃の人間関係で発生するストレスから解放させます。</p>
             </div>

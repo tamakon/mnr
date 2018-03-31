@@ -1,7 +1,7 @@
 <template>
     <div id="miner">
         <div class="contents">
-            <h1>マイナー</h1>
+            <h1>MiNeR</h1>
             <div>
                 <p>労働からの解放</p>
             </div>
