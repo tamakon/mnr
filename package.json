@@ -38,6 +38,7 @@
   "scripts": {
     "build": "browserify src/js/index.js -o dist/js/index.js",
     "watch": "watchify src/js/index.js -o dist/js/index.js -v",
+    "firebase-serve": "concurrently \"npm run build\" \"firebase serve\" ",
     "firebase-deploy": "concurrently \"npm run build\" \"firebase deploy\" ",
     "heroku": "concurrently \"npm run build\" \"node main.js\" "
   }
