@@ -1,7 +1,7 @@
 <template>
     <div id="member">
         <the-hero-header
-                img-source="https://www.pakutaso.com/shared/img/thumb/PAK93_toukyoueki20150112184649_TP_V.jpg"
+                img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-member.jpg?alt=media&token=e839016e-2141-4d29-a3b5-07c6bc6268bc"
                 title="Staff"
                 description="">
         </the-hero-header>
