@@ -5,7 +5,7 @@
             <div>
                 <p>この製品は、貴方が抱える日頃の人間関係で発生するストレスから解放させます。</p>
             </div>
-            <p>〜名称考え中〜について知る</p>
+            <p>FaceLookについて知る</p>
             <full-width-iframe
                 style="width:100%"
                 src="https://www.youtube.com/embed/G0jg422FM6M?rel=0&amp;controls=0">
