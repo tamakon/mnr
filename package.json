@@ -21,6 +21,9 @@
     "vueify": "^9.4.1",
     "watchify": "^3.9.0"
   },
+  "devDependencies": {
+    "firebase-tools": "^3.17.7"
+  },
   "browserify": {
     "transform": [
       [
@@ -35,6 +38,7 @@
   "scripts": {
     "build": "browserify src/js/index.js -o dist/js/index.js",
     "watch": "watchify src/js/index.js -o dist/js/index.js -v",
+    "deploy": "firebase deploy",
     "heroku": "concurrently \"npm run build\" \"node main.js\" "
   }
 }
