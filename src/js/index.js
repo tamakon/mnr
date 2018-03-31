@@ -13,6 +13,8 @@ import Secretary from '../component/pages/product/secretary.vue'
 import Vrc from '../component/pages/product/vrc.vue'
 import Recruit from '../component/pages/recruit.vue'
 import Contact from '../component/pages/contact.vue'
+import Info from '../component/pages/info.vue'
+import Member from '../component/pages/member.vue'
 
 Vue.use(VueRouter);
 
@@ -32,6 +34,8 @@ new Vue({
                     { path: "product/secretary", component: Secretary },
                     { path: "contact", component: Contact },
                     { path: "recruit", component: Recruit },
+                    { path: "member", component: Member },
+                    { path: "info", component: Info },
                     { path: "404", component: NotFound },
                     { path: "*", redirect: "404" },
                 ]
