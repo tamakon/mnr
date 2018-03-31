@@ -31,10 +31,9 @@
 <script>
     export default {
         data() {
-            const links = [{label: "会社情報", href: "/concept" },
+            const links = [{label: "会社情報", href: "/info" },
                             {label: "主な事業", href: "/product" },
                             {label: "ニュース", href: "/news"},
-                            {label: "採用情報", href: "/recruit" },
                             {label: "お問い合わせ", href: "/contact" }];
             return {
                 isActive: false,

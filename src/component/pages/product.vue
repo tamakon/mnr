@@ -29,18 +29,18 @@
             const links = [
                 {
                 link: "./product/vrc",
-                title: "<<名前未定>>",
-                detail: "<<名前未定>>は人間関係で起きるストレスから解放します。"
+                title: "FaceLook",
+                detail: "FaceLookは人間関係で起きるストレスから解放します。"
                 },
                 {
                     link: "./product/secretary",
-                    title: "AI秘書",
-                    detail: "AI秘書はあなたの生活を最適化させるパートナーとなる存在です"
+                    title: "MNecho",
+                    detail: "MNechoはあなたの生活を最適化させるパートナーとなる存在です"
                 },
                 {
                     link: "./product/miner",
-                    title: "マイナー",
-                    detail: "マイナーは貴方の自由な時間を蝕む労働から解放します。"
+                    title: "MiNeR",
+                    detail: "MiNeRは貴方の自由な時間を蝕む労働から解放します。"
                 },
             ];
             return {
