@@ -38,7 +38,7 @@
                     私達の製品が少しでもより良い社会に貢献できればと考えております。
                 </p>
                 <div id="concept-ceo-message-author">
-                    <img src="/img/face-haraguchi.png" width="150" height="150">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/face-haraguchi.png?alt=media&token=af2be5e1-8233-4bc8-a14c-0157a52733ce" width="150" height="150">
                     <div id="concept-ceo-message-author-role">MNR 代表取締役社長</div>
                     <div id="concept-ceo-message-author-name">原口 広樹</div>
                 </div>
