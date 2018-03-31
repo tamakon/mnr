@@ -1,5 +1,6 @@
 <template>
     <div id="the-global-footer">
+        <span class="footer-headline">取り扱い店舗</span>
         <li v-for="shop in shops" :key="shop.name">
             <div class="shop-block">
                 <h3>{{ shop.name }}</h3>
@@ -16,17 +17,17 @@ export default {
     data() {
         const shops = [
             {
-                name: "東京本店",
+                name: "カルメロ・ジョーダン",
                 addr: "〒156-0052 東京都世田谷区経堂１丁目１２−６ 城南信用金庫隣り",
                 href: "https://goo.gl/maps/6zX1Z1SQd9m"
             },
             {
-                name: "大阪支店",
+                name: "宇治原堂本店",
                 addr: "〒542-0085 大阪府大阪市中央区心斎橋筋２丁目１−３０ プラディオ心斎橋 2F",
                 href: "https://goo.gl/maps/8uJoUZgodmw"
             },
             {
-                name: "シンガポール支店",
+                name: "aria15 store",
                 addr: "71, Jalan Austin Heights 8/1, Taman Mount Austin, 81100 Johor Bahru, Johor, マレーシア",
                 href: "https://goo.gl/maps/7WpzZVpXToq"
             }
@@ -43,8 +44,13 @@ export default {
     #the-global-footer {
         background-color: #393E46;
         text-align: center;
-        padding: 3em 0.5em 1em;
+        padding: 0em 0.5em 1em;
         list-style: none;
+    }
+    .footer-headline {
+        color: white;
+        padding: 1em;
+        display: inline-block;
     }
     .button-google-map,
     .shop-block p {
