@@ -8,7 +8,7 @@
         <router-link :to="'./product/vrc'">
             <div class="index-content-root">
                 <div class="index-content-text">
-                    <div class="index-content-title">VRC</div>
+                    <div class="index-content-title">FaceLook</div>
                     <div class="index-content-desc">人間関係によるストレスから<br>あなたを解放させます。</div>
                 </div>
                 <figure id="index-content-image-vrc" class="index-content-image"></figure>
@@ -17,7 +17,7 @@
         <router-link :to="'./product/secretary'">
             <div class="index-content-root">
                 <div class="index-content-text">
-                    <div class="index-content-title">AI秘書</div>
+                    <div class="index-content-title">MNecho</div>
                     <div class="index-content-desc">あなたの生活を最適化させる<br>パートナーです。</div>
                 </div>
                 <figure id="index-content-image-secretary" class="index-content-image"></figure>
@@ -26,7 +26,7 @@
         <router-link :to="'./product/miner'">
             <div class="index-content-root">
                 <div class="index-content-text">
-                    <div class="index-content-title">マイナー</div>
+                    <div class="index-content-title">Miner</div>
                     <div class="index-content-desc">不労所得によって労働から<br>あなたを解放させます。</div>
                 </div>
                 <figure id="index-content-image-miner" class="index-content-image"></figure>
