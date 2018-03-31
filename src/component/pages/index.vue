@@ -26,7 +26,7 @@
         <router-link :to="'./product/miner'">
             <div class="index-content-root">
                 <div class="index-content-text">
-                    <div class="index-content-title">Miner</div>
+                    <div class="index-content-title">MiNeR</div>
                     <div class="index-content-desc">不労所得によって労働から<br>あなたを解放させます。</div>
                 </div>
                 <figure id="index-content-image-miner" class="index-content-image"></figure>
