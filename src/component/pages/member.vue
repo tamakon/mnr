@@ -23,7 +23,11 @@
                     </div>
                     <h3>master branch</h3>
                     <p>
-                        test
+                        ITで人々のしがらみから解放させることが私の目標です。
+                    </p>
+                    <p>
+                        日々のしがらみに強いストレスを感じていた私は、この会社の思想に強く感銘を受けました。
+                        私が得意とするこのITを用いて全ての人々のしがらみから解放して生活に喜びを与えることが私の目標です。
                     </p>
                     <div class="concept-ceo-message-author">
                         <img src="/img/face-haraguchi.png" width="150" height="150">

@@ -5,11 +5,6 @@
             <div>
                 <p>この製品は、貴方が抱える日頃の人間関係で発生するストレスから解放させます。</p>
             </div>
-            <p>FaceLookについて知る</p>
-            <full-width-iframe
-                style="width:100%"
-                src="https://www.youtube.com/embed/G0jg422FM6M?rel=0&amp;controls=0">
-            </full-width-iframe>
             <h2>製品について</h2>
             <div>以下の2つの効果を保証します</div>
             <div>
