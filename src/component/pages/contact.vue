@@ -6,6 +6,9 @@
             description="">
         </the-hero-header>
         <div class="contents">
+            <loading
+                :active.sync="isLoading">
+            </loading>
             <div>
                 <p>弊社について、ご質問や採用希望等がございましたら下記フォームよりお問い合わせください。</p>
             </div>
@@ -33,12 +36,14 @@
     import TheHeroHeader from '../contents/TheHeroHeader.vue'
     import FormInput from '../contents/FormInput.vue'
     import RectangleButton from '../contents/RectangleButton.vue'
+    import Loading from 'vue-loading-overlay'
 
     export default {
         components: {
             TheHeroHeader,
             FormInput,
             RectangleButton,
+            Loading,
         },
         data() {
             const makeModel = (name, validation) => {
@@ -56,6 +61,7 @@
                     email: makeModel("メールアドレス", 'email'),
                     text: makeModel("内容", 'empty'),
                 },
+                isLoading: false,
             }
         },
         methods: {
@@ -70,9 +76,12 @@
                 }
                 if (isValid) {
                     // 正常系処理
+                    this.isLoading = true
                     setTimeout(() => {
+                        this.isLoading = false
                         console.log("なんもしてないやでw");
-                        alert("送信しました");
+                        // 遅延させないとloadingの描画変更より先にalertがきてしまう
+                        setTimeout(() => alert("送信しました"), 100)
                     }, 1000);
                 }
             },
