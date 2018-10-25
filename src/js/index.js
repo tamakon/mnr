@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Loading from 'vue-loading-overlay'
 import App from '../component/app.vue'
 import Root from '../component/pages/root.vue'
 import NotFound from '../component/pages/notfound.vue'
@@ -17,6 +18,7 @@ import Info from '../component/pages/info.vue'
 import Member from '../component/pages/member.vue'
 
 Vue.use(VueRouter);
+Vue.use(Loading)
 
 new Vue({
     el: "#app",
