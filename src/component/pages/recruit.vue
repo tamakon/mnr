@@ -1,7 +1,7 @@
 <template>
     <div id="recruit">
         <the-hero-header
-            img-source="https://www.pakutaso.com/shared/img/thumb/code1211IMGL1494_TP_V.jpg"
+            img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-recruit.jpg?alt=media&token=43f173e0-f6d1-442d-8814-357d9f2d63de"
             title="採用情報"
             description="">
         </the-hero-header>

@@ -1,7 +1,7 @@
 <template>
     <div id="concept">
         <the-hero-header
-                img-source="https://www.pakutaso.com/shared/img/thumb/mizuho17810DSC_0264_TP_V.jpg"
+                img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-concept.jpg?alt=media&token=e42fb053-39d6-46e7-a166-e9a3cae4638a"
                 title="Concept"
                 description="">
         </the-hero-header>
@@ -38,7 +38,7 @@
                     私達の製品が少しでもより良い社会に貢献できればと考えております。
                 </p>
                 <div id="concept-ceo-message-author">
-                    <img src="/img/face-haraguchi.png" width="150" height="150">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/face-haraguchi.png?alt=media&token=bc78d0f4-bcb8-4895-a788-aa4f229e373c" width="150" height="150">
                     <div id="concept-ceo-message-author-role">MNR 代表取締役社長</div>
                     <div id="concept-ceo-message-author-name">原口 広樹</div>
                 </div>

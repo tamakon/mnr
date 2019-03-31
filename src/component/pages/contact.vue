@@ -1,7 +1,7 @@
 <template>
     <div id="contact">
         <the-hero-header
-            img-source="https://www.pakutaso.com/shared/img/thumb/ss76_bbwosousasurute14172508_TP_V.jpg"
+            img-source="https://firebasestorage.googleapis.com/v0/b/mind-network-revolution.appspot.com/o/hero-contact.jpg?alt=media&token=2a348fc2-7467-4a5f-9238-3c4cbee21173"
             title="Contact"
             description="">
         </the-hero-header>
