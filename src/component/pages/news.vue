@@ -25,6 +25,11 @@
         data() {
             const links = [
                 {
+                    link: "./news/20190401",
+                    title: "新製品「Supple」の取材記事が掲載されました！",
+                    detail: "2019年04月01日"
+                },
+                {
                     link: "./product/secretary",
                     title: "MNechoを発表",
                     detail: "2018年1月29日"

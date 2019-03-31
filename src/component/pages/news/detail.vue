@@ -14,6 +14,12 @@
         data() {
             const newsRepository = [
                 {
+                    key: "20190401",
+                    title: "新製品「Supple」の取材記事が掲載されました！",
+                    message: "新製品「Supple」について「Spring Quota」様にインタビューを受けました。詳細は下記リンクからどうぞ。",
+                    link: "https://fool-april.site"
+                },
+                {
                     key: "20170116",
                     title: "代表取締役社長 原口の取材記事が掲載されました！",
                     message: "原口氏がインタビューをされました。詳細は下記リンクからどうぞ。",
